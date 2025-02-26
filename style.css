@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+}
