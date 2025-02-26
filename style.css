@@ -3,30 +3,66 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background: #007BFF;
+    background: #3498db;
     color: white;
     padding: 20px;
+    font-size: 1.2em;
 }
 
 .about img {
-    width: 150px;
+    width: 120px;
     border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid #3498db;
 }
 
 section {
     padding: 20px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #2676b9;
 }
 
 footer {
-    background: #007BFF;
+    background: #3498db;
     color: white;
     padding: 10px;
+    margin-top: 20px;
 }
